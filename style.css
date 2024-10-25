@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 56px auto;
+    text-align: center;
+    padding-top: 120px;
+}
+
+body {
+    background-color: black;
+}
+
+.number {
+    width: 331px;
+    height: 51px;
+    border-radius: 30px;
+    border: 3px;
+    padding-left: 28px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+}
+
+form button {
+    width: 140px;
+    height: 51px;
+    border-radius: 30px;
+    border: none;
+    background-color: #2A2A2A;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+}
+
+.variableText {
+    color: white;
+    align-items: center;
+}   
+
+.row {
+    width: 475px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 83px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 87.14px;
+    background-color: #2A2A2A;
+    border-radius: 32px;
+    align-items: center;
+}
+
+.decrease {
+    font-size: 100px;
+    background-color: #2A2A2A;
+    border: none;
+    color: white;
+}
+
+.increase {
+    font-size: 100px;
+    background-color: #2A2A2A;
+    border: none;
+    color: white;
+}
+
+.color {
+    display: flex;
+    color: white;
+    align-items: center;    
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: Inter;
+    font-size: 30px;
+    text-align: center;
+}
